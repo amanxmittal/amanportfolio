@@ -7,3 +7,9 @@
     color: #ffffff96;
     font-style: oblique;
 }
+
+.mark-light,
+mark-light {
+    padding: 0.2em;
+    background-color: #ff6c91;
+}
