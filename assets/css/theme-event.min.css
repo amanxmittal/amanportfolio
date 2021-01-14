@@ -11965,9 +11965,13 @@ blockquote .btn {
 .col-lg-4 .list-articles img.rounded {
     border-radius: 0.3125rem !important;
 }
+
+.newstylev video {
+    height: 500px;
+}
 @media (min-width: 768px) {
     .article-portfolio > :not(figure) {
-        max-width: 36rem;
+        width: 100%;
         margin-left: auto;
         margin-right: auto;
     }
