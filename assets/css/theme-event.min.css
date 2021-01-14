@@ -10232,6 +10232,10 @@ footer {
     .row:not(.no-gutters) > [class*="col-6"]:nth-child(even) {
         padding-left: 0.375rem;
     }
+
+    section.has-divider .container {
+    padding-top: 5px;
+}
 }
 @media (min-width: 576px) {
     .container-fluid,
