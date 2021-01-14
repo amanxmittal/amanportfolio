@@ -10236,6 +10236,15 @@ footer {
     section.has-divider .container {
     padding-top: 5px;
 }
+.nwsection {
+    padding: 0;
+    position: relative;
+    top: -48px;
+}
+.self-lead-s {
+    width: 150%;
+}
+
 }
 @media (min-width: 576px) {
     .container-fluid,
