@@ -18,3 +18,7 @@ mark-light {
     padding-top: 12%;
     padding-left: 27px;
 }
+
+.alert{
+	margin-bottom: 0px !important;
+}
