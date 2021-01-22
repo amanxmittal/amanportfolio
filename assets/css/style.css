@@ -22,3 +22,7 @@ mark-light {
 .alert{
 	margin-bottom: 0px !important;
 }
+
+.dec-margin {
+    margin-top: -180px;
+}
