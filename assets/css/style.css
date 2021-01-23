@@ -29,5 +29,11 @@ mark-light {
 
 .frame-portfolio-item {
     height: auto;
-  width: 100%;
+    width: 100%;
+}
+
+.frame-profile {
+    max-width: 150px;
+    max-height: 150px;
+
 }
