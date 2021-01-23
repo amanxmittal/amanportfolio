@@ -12,7 +12,7 @@ RewriteRule (.*) https://www.%1/$1 [R=301,L]
 
 ErrorDocument 404 /404.html
 
-RewriteRule ^https://amanmittal.netlify.app/$ index.html [NC,L]
+RewriteRule ^https://amanmittal.me/$ index.html [NC,L]
 
 RewriteRule ^about$ about.html [NC,L]
 
