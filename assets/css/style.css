@@ -26,3 +26,8 @@ mark-light {
 .dec-margin {
     margin-top: -180px;
 }
+
+.frame-portfolio-item {
+    height: auto;
+  width: 100%;
+}
