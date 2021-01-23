@@ -22,6 +22,7 @@ RewriteRule ^instahyre$ instahyre.html [NC,L]
 
 RewriteRule ^merrygo-case-study$ merrygo-case-study.html [NC,L]
 
+RewriteRule ^impressions$ impressions.html [NC,L]
 
 
 
