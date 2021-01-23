@@ -16,6 +16,13 @@
 
     <link rel="stylesheet" href="assets/css/style.css">
 
+    <!-- Redirect Script -->
+    <script>
+      if (location.host === "subdomain.netlify.app") {
+        location.href = "https://original-domain.com";
+      }
+    </script>
+
 
     <!-- Favicon -->
     <link rel="apple-touch-icon" sizes="180x180" href="/assets/fevicon/apple-touch-icon.png">

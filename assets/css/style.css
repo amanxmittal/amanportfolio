@@ -37,3 +37,9 @@ mark-light {
     max-height: 150px;
 
 }
+
+.inner-text-style {
+    font-weight: bold;
+    color: yellowgreen;
+    /* text-decoration: underline; */
+}
