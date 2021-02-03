@@ -36,4 +36,5 @@ Disallow:
 Disallow: /portfolio-case-study-Copy.html
 Disallow: /portfolio-single-slider.html
 Disallow: /portfolio-all.html
+Disallow: /contact.html
 Sitemap: https://www.amanmittal.me/sitemap.xml
