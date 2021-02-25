@@ -29,6 +29,8 @@ RewriteRule ^merrygo-case-study$ merrygo-case-study.html [NC,L]
 
 RewriteRule ^impressions$ impressions.html [NC,L]
 
+RewriteRule ^digilocker$ digilocker.html [NC,L]
+
 DirectoryIndex index.html
 
 Redirect 301 http://amanmittal.netlify.app http://amanmittal.me
