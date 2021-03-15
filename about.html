@@ -62,17 +62,62 @@
 
     <!-- navbar open -->
 
+    <div class="loader">
+      <div class="loading-animation"></div>
+    </div>
+
+    <div class="navbar-container ">
+      <nav class="navbar navbar-expand-lg justify-content-between navbar-dark bg-primary-3 border-bottom-0" data-sticky="top">
+        <div class="container">
+          <div class="col flex-fill px-0 d-flex justify-content-between">
+            <a class="navbar-brand mr-0 fade-page" href="index.html">
+              <img src="assets/img/logos/aman-mittal-ux-logo-white-1.svg" alt="Aman Mittal">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-expanded="false" aria-label="Toggle navigation">
+              <img class="icon navbar-toggler-open" src="assets/img/icons/interface/menu.svg" alt="menu interface icon" data-inject-svg />
+              <img class="icon navbar-toggler-close" src="assets/img/icons/interface/cross.svg" alt="cross interface icon" data-inject-svg />
+            </button>
+          </div>
+          <div class="collapse navbar-collapse col px-0 px-lg-2 flex-fill">
+            <div class="py-2 py-lg-0">
+              <ul class="navbar-nav">
+                <li class="nav-item ">
+                  <a href="index.html" class="nav-link" >Work</a>
+                  
+                </li>
+
+                <li class="nav-item active">
+                  <a href="about.html" class="nav-link" >✔ About </a>
+                  
+                </li>
+
+                <li class="nav-item ">
+                  <a href="blender-projects.html" class="nav-link" >Experiments</a>
+                  
+                </li>
+              
+              </ul>
+            </div>
+          </div>
+          <div class="collapse navbar-collapse justify-content-end col flex-fill px-0"><a href="contact.html" class="btn btn-primary ml-lg-3">Get In Touch 🤙</a>
+
+          </div>
+        </div>
+      </nav>
+    </div>
+
     <!-- navbar close -->
 
     <section class="bg-primary-3 text-light">
       <div class="container lg-6">
-        <div class="row mb-4">
+        
+        <!-- <div class="row mb-4">
           <div class="col">
               <a href="index" class="btn btn-lg btn-primary ">Work</a>
               <a href="about" class="btn btn-lg btn-primary ml-3 active">About 👦🏾</a>       
 
           </div>
-        </div>
+        </div> -->
         <div class="row">
 
           <div class="col layer-1" data-aos="fade-up" data-aos-delay="100">
@@ -262,8 +307,6 @@
                   <span>
                     <i class="fab fa-youtube"></i>
                   </span>
-                  
-                  <!-- <img class="icon " src="assets/img/icons/social/instagram.svg" alt="instagram social icon" data-inject-svg /> -->
                 </a>
               </li>
               <li class="nav-item">
@@ -303,7 +346,11 @@
         </div>
         <div class="row">
           <div class="col-auto">
-            <small class="text-muted">©2021 Aman Mittal. Designed in <i class="fab fa-figma"></i>, hosted at <i class="fab fa-github"></i>, deployed using Netlify.</small>
+            <small class="text-muted">
+              Designed in <span class="iconify" data-icon="grommet-icons:figma" data-inline="false"></span>, hosted at <span class="iconify" data-icon="radix-icons:github-logo" data-inline="false"></span>, deployed using <span class="iconify" data-icon="vscode-icons:file-type-netlify" data-inline="false"></span>.
+              <br>
+              ©2021 Aman Mittal.
+            </small>
           </div>
         </div>
       </div>
@@ -359,6 +406,8 @@
     <script type="text/javascript" src="assets/js/typed.min.js"></script>
     <!-- Required theme scripts (Do not remove) -->
     <script type="text/javascript" src="assets/js/theme.js"></script>
+    <!-- Iconify Script -->
+    <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
 
     <script type="text/javascript">
       // This script appears only in the demo - it disables forms with no action attribute to prevent 
