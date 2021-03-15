@@ -128,3 +128,13 @@ mark-light {
     position: absolute;
     left: 50%;
 }
+
+svg[data-icon='heroicons-outline:menu-alt-3'] {
+  font-size: 48px;
+  color: #fff;
+}
+
+svg[data-icon='heroicons-outline:x'] {
+  font-size: 48px;
+  color: #fff;
+}
