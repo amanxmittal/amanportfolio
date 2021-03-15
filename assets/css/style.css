@@ -139,7 +139,73 @@ svg[data-icon='heroicons-outline:x'] {
   color: #fff;
 }
 
+svg[data-icon='fa-brands:youtube'] {
+  font-size: 48px;
+  
+}
+
+svg[data-icon='fa-brands:dribbble'] {
+  font-size: 48px;
+  
+}
+
+svg[data-icon='fa-brands:behance'] {
+  font-size: 48px;
+  /* color: #053cf7; */
+}
+
+svg[data-icon='fa-brands:linkedin-in'] {
+  font-size: 48px;
+  /* color: #0a66c2; */
+}
+
+svg[data-icon='fa-brands:instagram'] {
+  font-size: 48px;
+  /* color: #fff; */
+}
+
+.socialinks {
+     display: flex;
+    justify-content: space-between;
+    /* width: 350px; */
+    /* margin: 32px 0 64px -8px; */
+
+}
+
+.socialinks a {
+  padding: 12px;
+  border-radius: 12px;
+  display: flex;
+}
+
+.socialinks a:hover {
+  transition: .2s ease-in;
+  background: #1b1b27;
+}
+/* .emailButton:hover {
+  cursor: pointer;
+} */
+
+a:active, a:hover {
+  outline: 0;
+}
+
+.navactive{
+  transition: .2s ease-in;
+  background: #1b1b27;
+  border-radius: 12px;
+  display: flex;
+}
 .ice-cube {
   height: 5%;
   width: 5%;
+}
+
+.btn-padding {
+  padding-top: 12px !important; 
+  padding-bottom: 12px !important; 
+  padding-left: 20px !important; 
+  padding-right: 20px !important; 
+  border-radius: 12px !important;
+  display: flex;
 }
