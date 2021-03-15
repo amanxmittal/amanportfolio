@@ -138,3 +138,8 @@ svg[data-icon='heroicons-outline:x'] {
   font-size: 48px;
   color: #fff;
 }
+
+.ice-cube {
+  height: 5%;
+  width: 5%;
+}
