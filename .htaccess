@@ -21,6 +21,8 @@ RewriteRule ^https://amanmittal.me/$ index.html [NC,L]
 
 RewriteRule ^about$ about.html [NC,L]
 
+RewriteRule ^contact$ contact.html [NC,L]
+
 RewriteRule ^blender-projects$ blender-projects.html [NC,L]
 
 RewriteRule ^instahyre$ instahyre.html [NC,L]
@@ -30,6 +32,8 @@ RewriteRule ^merrygo-case-study$ merrygo-case-study.html [NC,L]
 RewriteRule ^impressions$ impressions.html [NC,L]
 
 RewriteRule ^digilocker$ digilocker.html [NC,L]
+
+RewriteRule ^medical-icon$ medical-icon.html [NC,L]
 
 DirectoryIndex index.html
 
