@@ -4,3 +4,5 @@ Disallow: /portfolio-single-slider.html
 Disallow: /portfolio-all.html
 Disallow: /contact.html
 Disallow: /blog-article-image-header-parallax.html
+
+Sitemap: https://www.amanmittal.me/sitemap.xml
