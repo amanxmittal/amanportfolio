@@ -209,3 +209,7 @@ a:active, a:hover {
   border-radius: 12px !important;
   display: flex;
 }
+
+.lead.hero-sub-head {
+    font-size: 26px;
+}
