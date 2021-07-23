@@ -41,8 +41,9 @@
 <body>
 
   <!-- loading header -->
-  <div id="header"></div>
-  <?php include "./header.html" ?>
+  <!-- <div id="header"></div> -->
+  <!-- <?php include "./header.html" ?> -->
+  <iframe src="header.html" onload="this.before((this.contentDocument.body||this.contentDocument).children[0]);this.remove()"></iframe>
 
   <div class="loader">
     <div class="loading-animation"></div>
@@ -287,9 +288,10 @@
   </section>
 
   <!-- loading footer -->
-  <div id="footer"></div>
-  <?php include "./footer.html" ?>
-
+  <!-- <div id="footer"></div> -->
+  <!-- <?php include "./footer.html" ?> -->
+  <iframe src="footer.html" onload="this.before((this.contentDocument.body||this.contentDocument).children[0]);this.remove()"></iframe>
+  
 </body>
 
 
