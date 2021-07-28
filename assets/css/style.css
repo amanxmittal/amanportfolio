@@ -213,3 +213,124 @@ a:active, a:hover {
 .lead.hero-sub-head {
     font-size: 26px;
 }
+
+/* $background: #020217;
+$body-color: #DCECFB;
+$eye-color: #020217;
+$mouth-color: #020217;
+$tongue-color: #8C253B;
+$shadow-color: #101143; */
+  
+/* body {
+  background-color: $background;
+  padding: 0;
+  margin: 0;
+} */
+
+.contain {
+  position: relative;
+  margin: auto;
+  display: block;
+  margin-top: 8%;
+  width: 300px;
+  height: 200px;
+}
+
+.g-body {
+  background-color: #DCECFB;
+  position: absolute;
+  border-radius: 150px 150px 0 0;
+  width: 40%;
+  height: 80%;
+  top: 0%;
+  left: 30%;
+  animation: float 2.5s infinite;
+}
+
+.eye-group {
+  position:absolute;
+  width: 75px;
+  height: 10%;
+  top: 30%;
+  left: 18%;
+}
+
+.eye-left {
+  position: absolute;
+  background-color: #020217;
+  border-radius: 50%;
+  width: 10%;
+  height: 60%;
+  top: 30%;
+  left: 22%;
+  z-index: 1;
+}
+
+.eye-right {
+  position: absolute;
+  background-color: #020217;
+  border-radius: 50%;
+  width: 10%;
+  height: 60%;
+  top: 30%;
+  right: 22%;
+  z-index: 1;
+}
+
+.mouth {
+  position: absolute;
+  background-color: #020217;
+  width: 30%;
+  height: 10%;
+  border-radius: 50px 50px 250px 250px;
+  top: 50%;
+  left: 35%;
+}
+
+.tongue {
+  position: absolute;
+  background-color: #8C253B;
+  border-radius: 50%;
+  width: 60%;
+  height: 48%;
+  left: 20%;
+  top: 50%;
+}
+
+.feet .foot {
+  background-color: #DCECFB;
+  position: absolute;
+  border-radius: 0 0 20px 20px;
+  width: 25%;
+  height: 10%;
+  top: 100%;
+  left: 0%;
+}
+
+.foot.two {
+  height: 8%;
+  left: 40%;
+}
+
+.foot.three {
+  left: 75%;
+}
+
+.shadow {
+  background-color: #101143;
+  border-radius: 50%;
+  position: absolute;
+  width: 40%;
+  height: 10%;
+  top: 90%;
+  left: 30%;
+}
+
+@keyframes float {
+  0% {
+    transform: translate(0, 0);
+  }
+  50% {
+    transform: translate(0, -80px);
+  }
+}
