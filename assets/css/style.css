@@ -40,7 +40,8 @@ mark-light {
 
 .inner-text-style {
     font-weight: bold;
-    color: yellowgreen;
+    color:#035898;
+    /* color: yellowgreen; */
     /* text-decoration: underline; */
 }
 
