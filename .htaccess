@@ -35,6 +35,10 @@ RewriteRule ^digilocker$ digilocker.html [NC,L]
 
 RewriteRule ^medical-icon$ medical-icon.html [NC,L]
 
+RewriteRule ^impact$ impact.html [NC,L]
+
+RewriteRule ^ux4g$ ux4g.html [NC,L]
+
 DirectoryIndex index.html
 
 Redirect 301 http://amanmittal.netlify.app http://amanmittal.me
